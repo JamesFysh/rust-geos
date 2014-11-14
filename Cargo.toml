@@ -1,0 +1,9 @@
+[package]
+
+name = "geos"
+version = "0.0.1"
+authors = ["James Fysh <james.fysh@gmail.com>"]
+
+[[bin]]
+
+name = "main"
