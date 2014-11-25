@@ -4,7 +4,7 @@
 
 extern crate libc;
 
-use libc::{c_void, c_int, c_char};
+use libc::{c_char};
 
 #[link(name = "geos_c")]
 extern {    

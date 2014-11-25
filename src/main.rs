@@ -1,3 +1,4 @@
+#![cfg(not(test))]
 extern crate geos;
 use geos::{version};
 
