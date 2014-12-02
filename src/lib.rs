@@ -14,7 +14,7 @@ extern {
 
 pub fn version() -> String {
     unsafe {
-        std::string::raw::from_buf(GEOSversion() as *const u8)
+        String::from_raw_buf(GEOSversion() as *const u8)
     }
 }
 
